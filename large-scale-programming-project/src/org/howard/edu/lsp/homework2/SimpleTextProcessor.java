@@ -14,6 +14,7 @@ public class SimpleTextProcessor {
 			System.out.println("Token(s): ");
 			Integer sum_a = new Integer("0"); 
 			Integer product = new Integer("1"); 
+			
 			for(int i = 0; i <data1.length; i++) {
 				System.out.println(data1[i]);
 				String s = data1[i]; 
