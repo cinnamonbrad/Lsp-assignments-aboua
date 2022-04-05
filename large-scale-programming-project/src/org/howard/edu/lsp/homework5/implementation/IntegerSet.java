@@ -1,16 +1,18 @@
 package org.howard.edu.lsp.homework5.implementation;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 
 public class IntegerSet {
 
 		private List<Integer> set = new ArrayList<Integer>();
+		private Object list;
 		
 		public IntegerSet() 
 		{
-		//	this.list = list; 
+		this.list = list; 
 		}
 		
 		
@@ -40,7 +42,7 @@ public class IntegerSet {
 		public int largest() throws IntegerSetException {
 			      
 		     if(set.size()==0) {
-		    	 IntegerSetException e= new IntegerSetException();
+		    	 IntegerSetException e = new IntegerSetException();
 		         throw e;
 		     }
 		     
