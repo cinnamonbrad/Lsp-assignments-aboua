@@ -8,10 +8,6 @@ public class MapUtilities {
 		if(map1 == null || map2 == null)
 			throw new NullMapException("One or both maps are null!");
 		
-		if (map1.isEmpty() || map2.isEmpty()) {
-            return 0;
-        }
-		
 		int count = 0;
 		
 		for (String key1 : map1.keySet()) {
